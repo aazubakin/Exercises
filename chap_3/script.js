@@ -1,5 +1,6 @@
 'use strict'
 
+// find minimum
 const min = (x, y) => {
    if (x < y) {
       return x;
@@ -9,7 +10,7 @@ const min = (x, y) => {
 
 console.log(min(2, 3));
 
-//define whether a positive whole number is even or odd
+//define whether a positive whole number is even or odd by recursion
 const isEven = (n) => {
 
    if (n == 0) return true;
